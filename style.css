@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient();
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #d5f0e8;
+}
+
+.header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    margin-top: 25px;
+}
+.header .action a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 550;
+}
+
+
+
+/*styling of home page */
+
+.home_page{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_icons{
+    padding: 15px;
+}
+
+.home_page .home_matter h1{
+        margin-bottom: 20px;
+        font-weight: 900;
+}
+
+.home_matter h5{
+    color: dimgray;
+    text-align: justify;
+    line-height: 35px;
+}
+/*styling of what i do page */
+.what{
+    text-align: center;
+    font-weight: 900;
+    font-size: 38px;
+}
+.web_matter h4{
+     font-weight: 600;
+     margin-bottom: 30px;
+     font-size: 32px;
+}
+
+.web_matter h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: dimgray;
+}
+.web_page{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* styling education page */
+.edu{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.edu_page{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 15px;
+}
+.edu_logo{
+
+    border-radius: 40%;
+    box-shadow: 2px 2px 2px 2px #c7c9c9;
+}
+.edu_card{
+    box-shadow:2px 2px 2px 2px #c7c9c9 ;
+}
+
+.edu_card .col_or{
+    background-color: transparent;
+}
+
+.edu_card .back_col{
+    background-color: #3d403f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.edu_card .leftpart{
+    margin-top: 10px;
+}
+
+.card_matter{
+    color: dimgray;
+    font-size: 18px;
+}
+
+.edu_card .rightpart{
+    margin-top: 10px;
+}
+
+/*skills page */
+.skills{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.second_raw{
+    margin-top: 10px;
+}
+.btn_colour{
+    background-color: #3d403f;
+    color: whitesmoke;
+}
+
+.crad{
+    font-weight: 600;
+}
+
+/* PROJECT PAGE */
+.project{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 80px;
+}
+.project_matter h6{
+    font-size: 24px;
+    color: dimgray;
+}
+.projectpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*contact page */
+.contact{
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_matter{
+    width: 50%;
+    text-align: center;
+    font-size: 23px;
+    color: dimgray;
+}
+
+
+.last_icons{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l_icon{
+    padding: 10px;
+}
+.email_form{
+    margin-top: 20px;
+}
+
+.cont_form{
+    font-weight: 600;
+}
+
+.contact_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
